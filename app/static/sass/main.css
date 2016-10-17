@@ -20,10 +20,11 @@ html, body {
   line-height: 150%;
   font-size: 16px;
   overflow-x: hidden;
-  text-align: left; }
+  text-align: left;
+  position: relative; }
 
-html {
-  padding-bottom: 45px; }
+body {
+  padding-bottom: 50px; }
 
 a {
   color: #d37130;
@@ -168,7 +169,7 @@ h3 {
   height: 50px;
   color: #777;
   text-align: right;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   height: 10px;
   padding-top: 20px; }

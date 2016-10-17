@@ -21,6 +21,10 @@ html, body {
   text-align: left;
 }
 
+html {
+  padding-bottom: 45px;
+}
+
 a {
   color: $sns-orange;
   text-decoration: none;
@@ -55,7 +59,7 @@ h3 {
   padding-left: 70px;
   padding-top: 30px;
   margin-top: 95px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
   background: transparent;
 }
 
@@ -125,7 +129,7 @@ h3 {
   margin-left: -5px;
   @include transition-duration(0.5s);
 }
-  
+
 .tab {
   width: 100px;
   height: 20px;
@@ -173,8 +177,13 @@ h3 {
   width: 100%;
   background: $regular-gray;
   padding: 30px;
+  height: 50px;
   color: #777;
   text-align: right;
+  position: fixed;
+  bottom: 0;
+  height: 10px;
+  padding-top: 20px;
 }
 
 /*Clear white boxes*/

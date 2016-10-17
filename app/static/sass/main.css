@@ -22,6 +22,9 @@ html, body {
   overflow-x: hidden;
   text-align: left; }
 
+html {
+  padding-bottom: 45px; }
+
 a {
   color: #d37130;
   text-decoration: none;
@@ -162,8 +165,13 @@ h3 {
   width: 100%;
   background: #dddddd;
   padding: 30px;
+  height: 50px;
   color: #777;
-  text-align: right; }
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  height: 10px;
+  padding-top: 20px; }
 
 /*Clear white boxes*/
 .homebox {
